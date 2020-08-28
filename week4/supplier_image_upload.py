@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import os
 import requests
 
 image_dir = "supplier-data/images/"
-url = "http://localhost/upload"
+url = "http://localhost/upload/"
 
 imagelist = [x for x in os.listdir(image_dir) if x.lower().endswith("jpeg")]
 
